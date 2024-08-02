@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBook - Elegant</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 25px;
+            background-color: #f0f0f0;
+            color: #2e2e2e;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #1a1a1a;
+        }
+        p {
+            margin: 14px 0;
+        }
+        code {
+            background-color: #ececec;
+            padding: 3px 5px;
+            border-radius: 5px;
+        }
+        pre {
+            background-color: #ececec;
+            padding: 12px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <markdown>
+        {{MARKDOWN_CONTENT}}
+    </markdown>
+    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+</body>
+</html>

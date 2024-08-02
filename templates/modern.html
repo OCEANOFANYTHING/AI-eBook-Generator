@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBook - Modern</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #333;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #2c3e50;
+        }
+        p {
+            margin: 10px 0;
+        }
+        code {
+            background-color: #e1e1e1;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #e1e1e1;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <markdown>
+        {{MARKDOWN_CONTENT}}
+    </markdown>
+    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+</body>
+</html>
